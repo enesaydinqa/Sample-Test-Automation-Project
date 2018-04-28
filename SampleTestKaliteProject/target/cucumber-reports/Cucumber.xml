@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="55.925334">
+<testcase classname="Current Page Test" name="Navigate testkalite URL" time="55.925334">
+<system-out><![CDATA[Given Open Browser..........................................................passed
+When Navigate "http://testkalite.com/" URL..................................passed
+And Verify Current Page "http://testkalite.com/" URL........................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

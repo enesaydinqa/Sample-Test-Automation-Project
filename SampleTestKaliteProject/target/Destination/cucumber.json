@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Navigate testkalite URL",
+        "description": "",
+        "id": "current-page-test;navigate-testkalite-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4313589689,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Browser",
+            "match": {
+              "location": "NavigateTest.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50800127319,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate \"http://testkalite.com/\" URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://testkalite.com/",
+                  "offset": 10
+                }
+              ],
+              "location": "NavigateTest.navigate_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18890054,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify Current Page \"http://testkalite.com/\" URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://testkalite.com/",
+                  "offset": 21
+                }
+              ],
+              "location": "NavigateTest.verify_Current_Page_URL(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 792726835,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close Browser",
+            "match": {
+              "location": "NavigateTest.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Current Page Test",
+    "description": "",
+    "id": "current-page-test",
+    "keyword": "Feature",
+    "uri": "NavigateTestKalite.feature"
+  }
+]
